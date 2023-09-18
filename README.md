@@ -2,7 +2,7 @@
 NodeJS app.</br>
 Continuous Integration With Github Actions</br>
 Continuous Deployment With Heroku</br>
-Push image to Docker Hub
+Push image to Docker Hub</br>
 
 # CI/CD steps are define at main.yml
 
@@ -13,7 +13,9 @@ Push image to Docker Hub
 
 # Ref:
     https://blog.logrocket.com/ci-cd-node-js-github-actions/
+    https://blog.devgenius.io/how-to-build-and-run-a-nodejs-app-with-docker-github-actions-59eb264dfef5
     https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-nodejs
+
 
 
 
