@@ -1,4 +1,4 @@
-# CI_Github_Actions
+# CI/CD with Github Actions and Heroku
 Continuous Integration With Github Actions
 Continuous Deployment With Heroku
 
