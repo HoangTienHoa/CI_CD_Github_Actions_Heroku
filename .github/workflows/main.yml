@@ -44,12 +44,12 @@ jobs:
         with:
           context: ./
           file: ./Dockerfile
-          push: true
+          push: false
           tags: hhoang231/ci_cd_nodejs:latest
+
       - uses: addnab/docker-run-action@v3
         with:
-          username: hhoang231
-          password: dckr_pat_D10zI4MbiHQeTqNCs1G3kBzsgVI
-          registry: gcr.io
           image: hhoang231/ci_cd_nodejs:latest
-          run: echo "hello world"
+          run: |
+            echo "runing the docker image"
+            echo "Testing the nodejs  app endpoints"
