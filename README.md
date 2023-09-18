@@ -1,6 +1,7 @@
-# CI/CD with Github Actions and Heroku
-Continuous Integration With Github Actions
-Continuous Deployment With Heroku
+# CI/CD Build a NodeJS app with Github Actions and Heroku
+NodeJS app.</br>
+Continuous Integration With Github Actions</br>
+Continuous Deployment With Heroku</br>
 
 # CI/CD steps are define at main.yml
 
