@@ -33,5 +33,16 @@ jobs:
 
       #- name: Run test
       - run: npm test
-
+    deploy:
+      runs-on: ubuntu-latest
+      # Need this job to run only when the tests run successfully
+      # So to prevent it from running in parallel to the build job, we will add that it depends on the build.
+      needs: [ build ]
+      steps:
+        - uses: actions/checkout@v2
+        - uses: akhileshns/heroku-deploy@v3.12.12
+          with:
+            heroku_api_key: "d6d15f85-08da-42c0-8c7d-f4c43e83ef0c"
+            heroku_app_name: "herokuapplication" #Must be unique in Heroku
+            heroku_email: "ht.hoa.0603@gmail.com"
 
