@@ -44,7 +44,7 @@ jobs:
         with:
           context: ./
           file: ./Dockerfile
-          push: false
+          push: true
           tags: hhoang231/ci_cd_nodejs:latest
 
       - uses: addnab/docker-run-action@v3
