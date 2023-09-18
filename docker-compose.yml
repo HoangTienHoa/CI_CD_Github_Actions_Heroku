@@ -1,0 +1,8 @@
+version: '1.0'
+services:
+  app:
+    container_name: CI_CD_NodeJS_Github_Actions_Heroku_Docker
+    restart: always
+    build: .
+    ports:
+      - 3000:3000

@@ -1,7 +1,8 @@
-# CI/CD Build a NodeJS app with Github Actions and Heroku
+# CI/CD Build a NodeJS app with Github Actions/Heroku and push image to Docker Hub
 NodeJS app.</br>
 Continuous Integration With Github Actions</br>
 Continuous Deployment With Heroku</br>
+Push image to Docker Hub
 
 # CI/CD steps are define at main.yml
 
